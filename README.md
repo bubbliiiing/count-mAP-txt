@@ -1,14 +1,23 @@
-# count-mAP-txt
-这个是一个在SSD的基础上用于生成绘制mAP代码所用的txt的例子。（目的是生成txt）  
+## Count-mAP：Map计算所需文件的生成在Keras当中的实现
+---
 
-# ssd的h5权重文件
+### 目录
+1. [所需环境 Environment](#所需环境)
+2. [文件下载 Download](#文件下载)
+3. [使用方式 Usage](#使用方式)
+
+### 所需环境
+tensorflow-gpu==1.13.1  
+keras==2.1.5  
+
+### 文件下载
+ssd的h5权重文件  
 链接: https://pan.baidu.com/s/1VOD35bbShx25n6LTpvBPGQ 提取码: zn3e  
 
-# VOC数据集地址
 大家要注意我例子中的VOC虽然写的是2007，但是实际上是2012的……  
 链接: https://pan.baidu.com/s/1jLW5k65lP8hZJhguH6ELQQ 提取码: 4r3g  
 
-# 使用方式
+### 使用方式
 博客链接：https://blog.csdn.net/weixin_44791964/article/details/104695264  
 参照博客会更清晰，博客有图片  
 
