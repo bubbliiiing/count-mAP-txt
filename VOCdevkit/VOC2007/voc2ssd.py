@@ -1,11 +1,20 @@
+#----------------------------------------------------------------------#
+#   验证集的划分在train.py代码里面进行
+#   test.txt和val.txt里面没有内容是正常的。训练不会使用到。
+#----------------------------------------------------------------------#
 import os
 import random 
- 
+random.seed(0)
+
 xmlfilepath=r'./VOCdevkit/VOC2007/Annotations'
 saveBasePath=r"./VOCdevkit/VOC2007/ImageSets/Main/"
  
-train_percent=1.0
-trainval_percent=0.9
+#----------------------------------------------------------------------#
+#   想要增加测试集修改trainval_percent
+#   train_percent不需要修改
+#----------------------------------------------------------------------#
+trainval_percent=0
+train_percent=1
 
 temp_xml = os.listdir(xmlfilepath)
 total_xml = []
